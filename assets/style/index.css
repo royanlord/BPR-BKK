@@ -6,11 +6,59 @@ html {
     scroll-behavior: smooth;
 }
 
+#katalog-section .see-katalog {
+    width: max-content;
+    background-color: #EB983C;
+    color: #28348B;
+}
+
+#katalog-section .see-katalog:hover {
+    background-color: #28348B;
+    color: #ffffff;
+}
+
 #alur-lelang-section .arrow-right {
     width: 0;
     height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid black;
-    margin: 0 20px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #28348B;
+}
+
+#alur-lelang-section .arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #28348B;
+    transform: rotate(180deg);
+}
+
+#alur-lelang-section .arrow-down {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #28348B;
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width: 480px) {
+    #alur-lelang-section .arrow-right {
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 15px solid #28348B;
+        transform: rotate(90deg);
+    }
+
+    #alur-lelang-section .arrow-left {
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-left: 15px solid #28348B;
+        transform: rotate(90deg);
+    }
 }
